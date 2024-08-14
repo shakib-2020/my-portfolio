@@ -33,9 +33,10 @@ function NavBar() {
           "Back-end Skills",
           "Portfolio",
           "Contact",
-        ].map((item) => {
+        ].map((item, index) => {
           return (
             <a
+              key={index}
               href={`#${item.toLowerCase().replace(" ", "").replace("-", "")}`}
               className={`text-xl lg:text-base  text-slate-50/50 ${
                 active === item ? "text-slate-200" : ""
