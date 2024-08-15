@@ -1,6 +1,7 @@
 import Footer from "@/components/footer/Footer";
 import NavBar from "@/components/nav-bar/NavBar";
 import BackEnd from "@/pages/BackEnd";
+import Experience from "@/pages/Experience";
 import FrontEnd from "@/pages/FrontEnd";
 import Home from "@/pages/Home";
 import React from "react";
@@ -10,6 +11,8 @@ function main() {
     <div className="w-full h-full">
       <NavBar />
       <Home />
+      <section className="h-[88px] w-full" id="experience" />
+      <Experience />
       <section className="h-[88px] w-full" id="frontendskills" />
       <FrontEnd />
       <section className="h-[88px] w-full" id="backendskills" />

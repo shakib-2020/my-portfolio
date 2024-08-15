@@ -22,13 +22,13 @@ function Home() {
       </div>
       {/* into text */}
       <div className="flex flex-col gap-2 lg:gap-1">
-        <span className="font-light text-[#ffff]/50 sm:text-sm lg:text-lg">
+        <span className="font-light text-[#ffff]/50 text-base lg:text-lg">
           Full Stack Developer
         </span>
         <h2 className="font-bold mb-2 text-2xl lg:text-4xl 2xl:text-5xl">
           Md. Nazmus Shakib
         </h2>
-        <p className="font-mono mb-2 text-wrap text-justify">
+        <p className="font-mono mb-2 text-wrap text-justify text-sm lg:text-base">
           Hello! I'm Shakib from Bangladesh, currently pursuing my Bachelor's
           degree. Alongside, I thrive as a full time Mobile & Web App Developer,
           crafting innovative solutions and bringing ideas to life. If my

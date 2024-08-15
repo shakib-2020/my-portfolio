@@ -52,7 +52,7 @@ function FrontEnd() {
           <h2 className="text-2xl font-normal">What i'm doing?</h2>
           <div className="lg:ml-6 mt-8">
             <h2 className="text-xl mb-2 font-bold">Web Application</h2>
-            <p className="font-mono text-justify md:pr-20">
+            <p className="font-mono text-justify md:pr-20 text-sm lg:text-base">
               It is a well-known fact that a person is often distracted by
               surrounding text when examining a graphic design, especially if
               the text has any meaning. The purpose of Lorem Ipsum is to replace
@@ -61,7 +61,7 @@ function FrontEnd() {
           </div>
           <div className="lg:ml-6 mt-8">
             <h2 className="text-xl mb-2 font-bold">Cross Platform </h2>
-            <p className="font-mono text-justify md:pr-20">
+            <p className="font-mono text-justify md:pr-20 text-sm lg:text-base">
               It is a well-known fact that a person is often distracted by
               surrounding text when examining a graphic design, especially if
               the text has any meaning. The purpose of Lorem Ipsum is to replace
@@ -76,12 +76,12 @@ function FrontEnd() {
             className="flex flex-row justify-center items-center min-h-[300px] w-full 
           "
           >
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid grid-cols-3 gap-3 lg:gap-10">
               {frontEndIcon.map((item, index) => {
                 return (
                   <div
                     key={index}
-                    className="flex flex-col items-center gap-1 border-2 p-4 hover:shadow-blue-50 shadow-blue-700 shadow-sm transition-all duration-500"
+                    className="flex flex-col items-center justify-center gap-1 border-2 p-4 hover:shadow-blue-50 shadow-blue-700 shadow-sm transition-all duration-500"
                   >
                     {item.name === "Expo" && (
                       <Image
@@ -95,7 +95,7 @@ function FrontEnd() {
                     <i
                       className={`${item.icon} text-4xl hover:[${item.color}]`}
                     ></i>
-                    <h3>{item.name}</h3>
+                    <h3 className="text-sm md:text-lg">{item.name}</h3>
                   </div>
                 );
               })}

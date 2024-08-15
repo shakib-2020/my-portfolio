@@ -5,10 +5,12 @@ function ContentWrapper({
   className,
 }: {
   children: ReactNode;
-  className: StylePropertyMap | string;
+  className?: StylePropertyMap | string;
 }) {
   return (
-    <div className={`min-h-[300px] w-full px-10 lg:px-20 py-16 ${className}`}>
+    <div
+      className={`min-h-[300px] w-full px-10 lg:px-20 py-10 lg:py-16 ${className}`}
+    >
       {children}
     </div>
   );
