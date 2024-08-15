@@ -11,11 +11,11 @@ function main() {
     <div className="w-full h-full">
       <NavBar />
       <Home />
-      <section className="h-[88px] w-full" id="experience" />
+      <section className="h-[60px] lg:h-[88px] w-full" id="experience" />
       <Experience />
-      <section className="h-[88px] w-full" id="frontendskills" />
+      <section className="h-[60px] lg:h-[88px] w-full" id="frontendskills" />
       <FrontEnd />
-      <section className="h-[88px] w-full" id="backendskills" />
+      <section className="h-[60px] lg:h-[88px] w-full" id="backendskills" />
       <BackEnd />
       <Footer />
     </div>

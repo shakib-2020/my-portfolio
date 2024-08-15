@@ -33,7 +33,7 @@ function Experience() {
           <TabsContent value="jobs">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl lg:text-2xl">
-                Mobile App Developer@Retrosoft.Ltd{" "}
+                Mobile App Developer@Retrosoft.Ltd
               </h2>
               <h3 className="text-base lg:text-xl">2024-01-06 - Present</h3>
               <ul className="flex flex-col gap-3 list-disc ml-6 mt-2 font-mono text-sm lg:text-base">
@@ -56,31 +56,31 @@ function Experience() {
               </ul>
             </div>
           </TabsContent>
+
           <TabsContent value="education">
-            <ul className="flex flex-col gap-8">
+            <ul className="flex flex-col gap-4">
               {/* bse */}
               <li className="flex flex-col gap-2">
-                <h2 className="text-xl lg:text-2xl font-bold">
+                <h2 className="text-xl lg:text-2xl">
                   B.Sc. in Computer Science & Engineering
                 </h2>
                 <h3 className="text-base lg:text-lg">Present</h3>
                 <h3 className=" text-lg lg:text-xl font-mono">
-                  Metropolitan University,
+                  Metropolitan University,<br></br> Sylhet, Bangladesh
                 </h3>
-                <h3 className="text-lg font-mono"> Sylhet, Bangladesh</h3>
+                <h3 className="text-lg font-mono"></h3>
               </li>
               {/* diploma */}
               <li className="flex flex-col gap-2">
-                <h2 className="text-xl lg:text-2xl font-bold">
+                <h2 className="text-xl lg:text-2xl">
                   Diploma In Engineering (Computer Technology)
                 </h2>
                 <h3 className="text-base lg:text-lg">Passed in 2022</h3>
                 <h3 className="text-lg lg:text-xl font-mono">
-                  Moulvibazar Polytechnic Institute,
+                  Moulvibazar Polytechnic Institute,<br></br> Moulvibazar,
+                  Sylhet, Bangladesh
                 </h3>
-                <h3 className="text-lg font-mono">
-                  Moulvibazar, Sylhet, Bangladesh
-                </h3>
+                <h3 className="text-lg font-mono">CGPA - 3.58 out of 4.00</h3>
               </li>
             </ul>
           </TabsContent>
