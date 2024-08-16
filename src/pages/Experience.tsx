@@ -9,7 +9,7 @@ function Experience() {
   return (
     <section className="">
       <TitleSection title="Experience" />
-      <ContentWrapper className={"min-h-[500px] lg:min-h-[300px]"}>
+      <ContentWrapper className={"min-h-[500px] lg:min-h-[300px] mb-10"}>
         <Tabs
           defaultValue="jobs"
           className="w-full h-[320px] lg:flex gap-8 bg-none"
@@ -65,7 +65,7 @@ function Experience() {
                   B.Sc. in Computer Science & Engineering
                 </h2>
                 <h3 className="text-base lg:text-lg">Present</h3>
-                <h3 className=" text-lg lg:text-xl font-mono">
+                <h3 className=" text-base lg:text-lg font-mono">
                   Metropolitan University,<br></br> Sylhet, Bangladesh
                 </h3>
                 <h3 className="text-lg font-mono"></h3>
@@ -76,11 +76,11 @@ function Experience() {
                   Diploma In Engineering (Computer Technology)
                 </h2>
                 <h3 className="text-base lg:text-lg">Passed in 2022</h3>
-                <h3 className="text-lg lg:text-xl font-mono">
+                <h3 className="text-base lg:text-lg font-mono">
                   Moulvibazar Polytechnic Institute,<br></br> Moulvibazar,
                   Sylhet, Bangladesh
                 </h3>
-                <h3 className="text-lg font-mono">CGPA - 3.58 out of 4.00</h3>
+                <h3 className="text-base font-mono">CGPA - 3.58 out of 4.00</h3>
               </li>
             </ul>
           </TabsContent>

@@ -26,7 +26,8 @@ const Button: React.FC<ButtonProps> = ({
   ...props
 }) => {
   // Define the base styles and variant styles
-  const baseStyles = "px-4 py-2 font-normal rounded-3xl transition-all";
+  const baseStyles =
+    "px-6 py-3 font-semibold rounded-full transition-all m-2 text-base";
   const variantStyles = {
     primary: "bg-blue-500 text-white hover:bg-blue-600",
     secondary: "bg-gray-500 text-white hover:bg-gray-600",
@@ -38,12 +39,14 @@ const Button: React.FC<ButtonProps> = ({
   };
 
   return (
-    <button
-      className={clsx(baseStyles, variantStyles[variant], className)}
-      {...props}
-    >
-      <Link href={href}>{children}</Link>
-    </button>
+    <Link href={href}>
+      <button
+        className={clsx(baseStyles, variantStyles[variant], className)}
+        {...props}
+      >
+        {children}
+      </button>
+    </Link>
   );
 };
 

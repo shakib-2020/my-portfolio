@@ -34,7 +34,7 @@ function NavBar() {
           "Experience",
           "Front-End Skills",
           "Back-end Skills",
-          "Portfolio",
+          "Projects",
           "Contact",
         ].map((item, index) => {
           return (

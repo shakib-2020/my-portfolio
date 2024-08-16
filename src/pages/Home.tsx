@@ -32,13 +32,13 @@ function Home() {
           Hello! I'm Shakib from Bangladesh, currently pursuing my Bachelor's
           degree. Alongside, I thrive as a full time Mobile & Web App Developer,
           crafting innovative solutions and bringing ideas to life. If my
-          portfolio or experience interests you, feel free to contact me!
+          projects or experience interests you, feel free to contact me!
         </p>
         <div className="flex gap-2">
-          <Button href={"/"} variant="outlineBlue">
-            Portfolio
+          <Button href={"#projects"} variant="outlineBlue">
+            Projects
           </Button>
-          <Button href={"/"} variant="outline">
+          <Button href={"#contact"} variant="outline">
             Contact
           </Button>
         </div>

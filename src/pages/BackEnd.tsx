@@ -84,7 +84,7 @@ function BackEnd() {
             className="flex flex-row justify-center items-center min-h-[300px] w-full mt-8
           "
           >
-            <div className="grid grid-cols-3 gap-3 lg:gap-10">
+            <div className="grid grid-cols-3 gap-3">
               {frontEndIcon.map((item, index) => {
                 return (
                   <div
@@ -103,7 +103,9 @@ function BackEnd() {
                     <i
                       className={`${item.icon} text-4xl hover:[${item.color}]`}
                     ></i>
-                    <h3 className="text-sm md:text-lg">{item.name}</h3>
+                    <h3 className="text-xs sm:text-sm md:text-lg">
+                      {item.name}
+                    </h3>
                   </div>
                 );
               })}
