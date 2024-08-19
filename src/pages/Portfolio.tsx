@@ -182,8 +182,11 @@ function Portfolio() {
                     // ]}
                   >
                     <CarouselContent>
-                      {projectInfo.images.map((item) => (
-                        <CarouselItem className="basis-[85%] lg:basis-[70%]">
+                      {projectInfo.images.map((item, index) => (
+                        <CarouselItem
+                          key={index}
+                          className="basis-[85%] lg:basis-[70%]"
+                        >
                           <Image
                             className="w-6/5 h-auto rounded-3xl"
                             src={item}
