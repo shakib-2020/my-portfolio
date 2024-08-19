@@ -7,7 +7,7 @@ function NavBar() {
   const [active, setActive] = useState("Home");
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="fixed top-0 left-0 flex flex-row justify-between items-center border-b border-[rgb(51,51,51)] px-10 py-4 lg:py-5 bg-[#222222] w-full">
+    <div className="fixed top-0 left-0 flex flex-row justify-between items-center border-b border-[rgb(51,51,51)] px-10 py-4 lg:py-5 bg-[#222222] w-full  z-50">
       <div
         className="w-[100px] lg:w-[150px]
       "
@@ -20,7 +20,7 @@ function NavBar() {
       <div
         className={`absolute lg:relative top-0 ${
           showMenu ? "left-0" : "left-[10000px] lg:left-0"
-        } -mt-[20px] lg:mt-0 flex flex-col lg:flex-row items-center lg:justify-end justify-center w-screen h-screen lg:h-0 mx-auto gap-4 bg-slate-800 lg:bg-transparent p-6 transition-all duration-700 ease-in-out lg:transition-none `}
+        } lg:mt-0 flex flex-col lg:flex-row items-center lg:justify-end justify-center w-screen h-screen lg:h-0 mx-auto gap-4 bg-slate-800 lg:bg-transparent p-6 transition-all duration-700 ease-in-out lg:transition-none `}
       >
         <div
           className="absolute lg:hidden right-24 top-48 border-2 border-[#b5aeae22] rounded"

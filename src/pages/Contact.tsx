@@ -5,6 +5,7 @@ import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { SlLocationPin } from "react-icons/sl";
 import { BsEnvelope } from "react-icons/bs";
 import Button from "@/components/Button/Button";
+import TitleUnderLine from "@/components/TitleUnderLine";
 
 const contactInfo = [
   {
@@ -56,7 +57,8 @@ function Contact() {
         <section className="col-span-4">
           <div className="mb-4">
             <h3 className="text-2xl font-semibold">Have a question?</h3>
-            <span className="text-sm font-mono ">
+            <TitleUnderLine width="w-48" />
+            <span className="text-sm font-mono">
               Looking forward to hearing from you. Fill in your details and
               let's start a conversation.
             </span>

@@ -1,4 +1,5 @@
 import TitleSection from "@/components/TitleSection/TitleSection";
+import TitleUnderLine from "@/components/TitleUnderLine";
 import ContentWrapper from "@/components/wrapper/ContentWrapper";
 import Image from "next/image";
 import React from "react";
@@ -58,6 +59,7 @@ function BackEnd() {
         <section className="lg:w-[50%]">
           {/* what i'm doing? */}
           <h2 className="text-2xl font-normal">What i'm doing?</h2>
+          <TitleUnderLine width="w-40" />
           <div className="lg:ml-6 mt-8">
             <h2 className="text-xl mb-2 font-bold">REST Api</h2>
             <p className="font-mono text-justify md:pr-20 text-sm lg:text-base">
@@ -80,6 +82,7 @@ function BackEnd() {
         <section className="lg:w-[50%]">
           {/* skill sets*/}
           <h2 className="text-2xl mt-10 lg:mt-0">Stuffs I use</h2>
+          <TitleUnderLine width="w-28" />
           <div
             className="flex flex-row justify-center items-center min-h-[300px] w-full mt-8
           "

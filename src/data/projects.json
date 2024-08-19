@@ -1,0 +1,137 @@
+{
+  "projects": [
+    {
+      "title": "E-commerce Application",
+      "description": "Developed a full-stack e-commerce web application using Node.js, Express, and MongoDB. Key features include: \n- User authentication with JWT \n- Role-based access control for admins and customers \n- Product CRUD operations with image upload functionality \n- Integration with Stripe API for secure payment processing \n- Responsive design with mobile-first approach \n- Deployed on Heroku with a CI/CD pipeline using GitHub Actions.",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JavaScript",
+        "Stripe API"
+      ],
+      "projectType": "backend",
+      "date": "2024-07-26",
+      "link": "https://example.com/ecommerce-app",
+      "thumbnail": "/demo1.png",
+      "images": ["/demo1.png", "/demo2.png", "/demo3.png"],
+      "deployments": [
+        {
+          "platform": "Github",
+          "url": ""
+        },
+        {
+          "platform": "Live",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "React Native Quran App",
+      "description": "Built a Quran app with React Native and Expo, featuring: \n- A floating compass for real-time Qibla direction \n- Rendering of Quranic text with tajweed using custom HTML tags \n- Location-based prayer times using the Expo Location API \n- Audio playback of Quranic verses with Expo AV \n- User-friendly interface with a dark mode option \n- Deployed on both iOS and Android platforms.",
+      "technologies": ["React Native", "Expo", "JavaScript", "Expo AV"],
+      "projectType": "appdev",
+      "date": "2024-08-10",
+      "link": "https://example.com/quran-app",
+      "thumbnail": "/demo2.png",
+      "images": ["/demo.2png", "/demo1.png", "/demo3.png"],
+      "deployments": [
+        {
+          "platform": "Github",
+          "url": ""
+        },
+        {
+          "platform": "Live",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Grammar Suggestion Tool",
+      "description": "Created a React web application that suggests grammar corrections and suitable words, similar to Grammarly. The application includes: \n- Real-time grammar and spelling suggestions \n- Contextual word replacement with synonyms \n- Integration with a third-party API for grammar checking \n- Customizable text input area with rich text formatting \n- Responsive design for both desktop and mobile devices \n- Built-in dark and light mode toggling.",
+      "technologies": ["React", "JavaScript", "HTML", "CSS"],
+      "projectType": "frontend",
+      "date": "2024-08-15",
+      "link": "https://example.com/grammar-tool",
+      "thumbnail": "/demo3.png",
+      "images": ["/demo3.png", "/demo2.png", "/demo1.png"],
+      "deployments": [
+        {
+          "platform": "Github",
+          "url": ""
+        },
+        {
+          "platform": "Live",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Designed and developed a personal portfolio website to showcase web and app development projects. Key aspects include: \n- Modern and minimalistic design \n- Interactive project gallery with tabbed navigation \n- Contact form with validation and email integration \n- Blog section with Markdown support for easy content management \n- SEO optimization for better search engine visibility \n- Hosted on Vercel with automated deployments from GitHub.",
+      "technologies": ["React", "Next.js", "CSS"],
+      "projectType": "template",
+      "date": "2024-08-19",
+      "link": "https://example.com/portfolio",
+      "thumbnail": "/demo4.png",
+      "images": [
+        "/demo4.png",
+        "/demo1.png",
+        "/demo3.png",
+        "/demo4.png",
+        "/demo1.png",
+        "/demo3.png"
+      ],
+      "deployments": [
+        {
+          "platform": "Github",
+          "url": ""
+        },
+        {
+          "platform": "Live Demo",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Grammar Suggestion Tool",
+      "description": "Created a React web application that suggests grammar corrections and suitable words, similar to Grammarly. The application includes: \n- Real-time grammar and spelling suggestions \n- Contextual word replacement with synonyms \n- Integration with a third-party API for grammar checking \n- Customizable text input area with rich text formatting \n- Responsive design for both desktop and mobile devices \n- Built-in dark and light mode toggling.",
+      "technologies": ["React", "JavaScript", "HTML", "CSS"],
+      "projectType": "template",
+      "date": "2024-08-15",
+      "link": "https://example.com/grammar-tool",
+      "thumbnail": "/demo3.png",
+      "images": ["/demo3.png", "/demo2.png", "/demo1.png"],
+      "deployments": [
+        {
+          "platform": "Github",
+          "url": ""
+        },
+        {
+          "platform": "Live",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "React Native Quran App",
+      "description": "Built a Quran app with React Native and Expo, featuring: \n- A floating compass for real-time Qibla direction \n- Rendering of Quranic text with tajweed using custom HTML tags \n- Location-based prayer times using the Expo Location API \n- Audio playback of Quranic verses with Expo AV \n- User-friendly interface with a dark mode option \n- Deployed on both iOS and Android platforms.",
+      "technologies": ["React Native", "Expo", "JavaScript", "Expo AV"],
+      "projectType": "template",
+      "date": "2024-08-10",
+      "link": "https://example.com/quran-app",
+      "thumbnail": "/demo5.png",
+      "images": ["/demo.2png", "/demo1.png", "/demo3.png"],
+      "deployments": [
+        {
+          "platform": "Github",
+          "url": ""
+        },
+        {
+          "platform": "Live",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}

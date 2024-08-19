@@ -4,7 +4,7 @@ import Button from "@/components/Button/Button";
 function Home() {
   return (
     <section
-      className={`flex flex-col md:flex-row justify-center items-center mx-auto w-[85%] xl:w-[60%] gap-8 h-screen mt-[88px`}
+      className={`flex flex-col md:flex-row justify-center items-center mx-auto w-[85%] xl:w-[60%] gap-8 h-screen mt-[50px] lg:mt-0`}
       id="home"
     >
       {/* image */}
@@ -34,7 +34,7 @@ function Home() {
           crafting innovative solutions and bringing ideas to life. If my
           projects or experience interests you, feel free to contact me!
         </p>
-        <div className="flex gap-2">
+        <div className="flex gap-0 lg:gap-1">
           <Button href={"#projects"} variant="outlineBlue">
             Projects
           </Button>
