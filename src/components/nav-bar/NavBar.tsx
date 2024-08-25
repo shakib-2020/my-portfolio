@@ -32,9 +32,9 @@ function NavBar() {
         {[
           "Home",
           "Experience",
-          "Front-End Skills",
-          "Back-end Skills",
+          "Skills",
           "Projects",
+          "Education",
           "Contact",
         ].map((item, index) => {
           return (

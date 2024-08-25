@@ -45,12 +45,49 @@ const frontEndIcon = [
     name: "Tailwind",
     icon: "devicon-tailwindcss-original",
   },
+  {
+    name: "Node",
+    icon: "devicon-nodejs-plain",
+    color: "colored",
+  },
+  {
+    name: "Express",
+    icon: "devicon-express-original",
+    color: "colored",
+  },
+  {
+    name: "MongoDB",
+    icon: "devicon-mongodb-plain",
+    color: "colored",
+  },
+  {
+    name: "Mongoose",
+    icon: "devicon-mongoose-original",
+    color: "colored",
+  },
+  {
+    name: "SQL lite",
+    icon: "devicon-sqlite-plain",
+    color: "colored",
+  },
+  {
+    name: "Postman",
+    icon: "devicon-postman-plain",
+  },
+  {
+    name: "Firebase",
+    icon: "devicon-firebase-plain",
+  },
+  {
+    name: "Vercle",
+    icon: "devicon-vercel-original",
+  },
 ];
 
-function FrontEnd() {
+function Skills() {
   return (
     <section>
-      <TitleSection title="Front-end Skills" />
+      <TitleSection title="Skills" />
       <ContentWrapper className={"flex flex-col lg:flex-row"}>
         <section className="lg:w-[50%]">
           {/* what i'm doing? */}
@@ -58,7 +95,7 @@ function FrontEnd() {
           <TitleUnderLine width="w-40" />
           <div className="lg:ml-6 mt-8">
             <h2 className="text-xl mb-2 font-bold">Web Application</h2>
-            <p className="font-mono text-justify md:pr-20 text-sm lg:text-base">
+            <p className="font-mono text-justify md:pr-20 text-sm lg:text-base xl:text-lg">
               It is a well-known fact that a person is often distracted by
               surrounding text when examining a graphic design, especially if
               the text has any meaning. The purpose of Lorem Ipsum is to replace
@@ -69,7 +106,25 @@ function FrontEnd() {
             <h2 className="text-xl mb-2 font-bold">
               App Development (Cross Platform)
             </h2>
-            <p className="font-mono text-justify md:pr-20 text-sm lg:text-base">
+            <p className="font-mono text-justify md:pr-20 text-sm lg:text-base xl:text-lg">
+              It is a well-known fact that a person is often distracted by
+              surrounding text when examining a graphic design, especially if
+              the text has any meaning. The purpose of Lorem Ipsum is to replace
+              meaningful text with a suitable, meaningless alternative.
+            </p>
+          </div>
+          <div className="lg:ml-6 mt-8">
+            <h2 className="text-xl mb-2 font-bold">REST Api</h2>
+            <p className="font-mono text-justify md:pr-20 text-sm lg:text-base xl:text-lg">
+              It is a well-known fact that a person is often distracted by
+              surrounding text when examining a graphic design, especially if
+              the text has any meaning. The purpose of Lorem Ipsum is to replace
+              meaningful text with a suitable, meaningless alternative.
+            </p>
+          </div>
+          <div className="lg:ml-6 mt-8">
+            <h2 className="text-xl mb-2 font-bold">Database</h2>
+            <p className="font-mono text-justify md:pr-20 text-sm lg:text-base xl:text-lg">
               It is a well-known fact that a person is often distracted by
               surrounding text when examining a graphic design, especially if
               the text has any meaning. The purpose of Lorem Ipsum is to replace
@@ -118,4 +173,4 @@ function FrontEnd() {
   );
 }
 
-export default FrontEnd;
+export default Skills;

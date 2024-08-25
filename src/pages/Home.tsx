@@ -28,7 +28,7 @@ function Home() {
         <h2 className="font-bold mb-2 text-2xl lg:text-4xl 2xl:text-5xl">
           Md. Nazmus Shakib
         </h2>
-        <p className="font-mono mb-2 text-wrap text-justify text-sm lg:text-base">
+        <p className="font-mono mb-2 text-wrap text-justify text-sm lg:text-base xl:text-lg">
           Hello! I'm Shakib from Bangladesh, currently pursuing my Bachelor's
           degree. Alongside, I thrive as a full time Mobile & Web App Developer,
           crafting innovative solutions and bringing ideas to life. If my

@@ -46,7 +46,7 @@ function Contact() {
                 <h2 className="text-lg lg:text-xl font-semibold mb-[2px]">
                   {item.data}
                 </h2>
-                <p className="text-sm text-slate-400 font-mono">
+                <p className="text-sm text-slate-400 font-mono xl:text-lg">
                   {item.sortMsg}
                 </p>
               </div>
@@ -58,7 +58,7 @@ function Contact() {
           <div className="mb-4">
             <h3 className="text-2xl font-semibold">Have a question?</h3>
             <TitleUnderLine width="w-48" />
-            <span className="text-sm font-mono">
+            <span className="text-sm font-mono xl:text-lg">
               Looking forward to hearing from you. Fill in your details and
               let's start a conversation.
             </span>
@@ -66,16 +66,16 @@ function Contact() {
           <form className="lg:grid grid-cols-5 gap-1">
             <div className="col-span-2 flex flex-col gap-2">
               <input
-                className="max-w-[500px] p-3 bg-transparent border border-[#555555] rounded-sm font-mono  focus:outline-none focus:border-[#0382f9] text-sm lg:text-base"
+                className="max-w-[500px] p-3 bg-transparent border border-[#555555] rounded-sm font-mono  focus:outline-none focus:border-[#0382f9] text-sm lg:text-base xl:text-lg"
                 placeholder="Enter your name!"
               />
               <input
-                className="max-w-[500px] p-3 bg-transparent border border-[#555555] rounded-sm font-mono focus:outline-none focus:border-[#0382f9] text-sm lg:text-base"
+                className="max-w-[500px] p-3 bg-transparent border border-[#555555] rounded-sm font-mono focus:outline-none focus:border-[#0382f9] text-sm lg:text-base xl:text-lg"
                 placeholder="Enter your email!"
               />
             </div>
             <textarea
-              className="max-w-[500px] min-h-[150px] lg:min-h-0 w-full mt-2 lg:mt-0 col-span-3 p-3 bg-transparent border border-[#555555] rounded-sm font-mono focus:outline-none focus:border-[#0382f9] text-sm lg:text-base"
+              className="max-w-[500px] min-h-[150px] lg:min-h-0 w-full mt-2 lg:mt-0 col-span-3 p-3 bg-transparent border border-[#555555] rounded-sm font-mono focus:outline-none focus:border-[#0382f9] text-sm lg:text-base xl:text-lg"
               placeholder="Enter your message..."
             />
           </form>

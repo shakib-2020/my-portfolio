@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 function Footer() {
   return (
-    <div className="w-full flex gap-3 flex-col lg:flex-row items-center lg:items-start lg:justify-between p-5 px-10 border-t border-[#333333] text-sm lg:text-base">
+    <div className="w-full flex gap-3 flex-col lg:flex-row items-center lg:items-start lg:justify-between p-5 px-10 border-t border-[#333333] text-sm lg:text-base xl:text-lg">
       <div className="flex gap-4">
         <Link
           href={"#"}
@@ -24,7 +24,9 @@ function Footer() {
         </Link>
       </div>
       <div>
-        <p className="font-normal text-white">© 2024 All rights reserved.</p>
+        <p className="font-normal text-white xl:text-lg">
+          © 2024 All rights reserved.
+        </p>
       </div>
     </div>
   );

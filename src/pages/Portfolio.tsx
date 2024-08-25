@@ -14,6 +14,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Fullscreen } from "lucide-react";
 
 interface projectInfoType {
   title: string;
@@ -29,27 +30,19 @@ interface projectInfoType {
 
 const projectTypes = [
   {
-    title: " Template Designs",
-    id: "template",
-  },
-
-  {
-    title: "Front-End Magic",
-    id: "frontend",
+    title: "Mobile Apps",
+    id: "mobile",
   },
   {
-    title: "Back-End Mastery",
-    id: "backend",
-  },
-  {
-    title: "App Wonders",
-    id: "appdev",
+    title: "Web Apps",
+    id: "web",
   },
 ];
 
 function Portfolio() {
   const [openProject, setOpenProject] = useState(false);
   const [projectInfo, setProjectInfo] = useState<projectInfoType | null>(null);
+  const [fullScreen, setFullScreen] = useState<Boolean>(false);
 
   useEffect(() => {
     const insideProject: any = document.getElementById("insideProject");
@@ -81,17 +74,22 @@ function Portfolio() {
     };
   }, [openProject]);
 
+  const handleImageFullScreen = () => {
+    setFullScreen(!fullScreen);
+  };
+
   return (
     <div>
       <TitleSection title="Projects" />
       <ContentWrapper className={"relative"}>
         {/* <h2 className="text-2xl font-normal">Gallery</h2>
         <TitleUnderLine width="w-40" />{" "} */}
+        {/*------------------tabs------------------------------------- */}
         <Tabs
-          defaultValue="template"
+          defaultValue="mobile"
           className="w-full min-h-[320px] gap-8 bg-none"
         >
-          <TabsList className="bg-transparent my-4 flex flex-col lg:flex-row mb-20">
+          <TabsList className="bg-transparent my-4 flex flex-row mb-20">
             {projectTypes.map((item, index) => (
               <TabsTrigger
                 key={index}
@@ -102,7 +100,7 @@ function Portfolio() {
               </TabsTrigger>
             ))}
           </TabsList>
-          {/* -------------------------------- */}
+          {/* project items-------------------------------- */}
 
           {projectTypes.map((type, index) => (
             <TabsContent
@@ -166,7 +164,7 @@ function Portfolio() {
               } top-0 left-0 w-screen h-screen flex justify-center items-center bg-black/80 z-50`}
             >
               <div
-                className="w-[95%] h-[75%] lg:w-[70%] lg:h-[80%] bg-[#222222] overflow-y-auto px-4 py-4 rounded-3xl"
+                className={`bg-[#222222] overflow-y-auto px-4 py-4 rounded-3xl w-[95%] h-[75%] lg:w-[70%] lg:h-[80%]`}
                 id="insideProject"
               >
                 <div className="flex flex-col items-center gap-4">
@@ -185,7 +183,8 @@ function Portfolio() {
                       {projectInfo.images.map((item, index) => (
                         <CarouselItem
                           key={index}
-                          className="basis-[85%] lg:basis-[70%]"
+                          className="basis-[85%] lg:basis-[70%] xl:basis-[50%] cursor-w-resize"
+                          onClick={() => handleImageFullScreen()}
                         >
                           <Image
                             className="w-6/5 h-auto rounded-3xl"
@@ -215,7 +214,7 @@ function Portfolio() {
                       </span>
                     ))}
                   </div>
-                  <p className="font-mono lg:w-[80%]">
+                  <p className="font-mono lg:w-[80%] xl:text-lg">
                     {projectInfo.description.split("\n").map((line, index) => {
                       if (line.startsWith("-")) {
                         return <li key={index}>{line.slice(1).trim()}</li>;
@@ -235,7 +234,7 @@ function Portfolio() {
                         ) : (
                           <FaExternalLinkAlt size={24} color="black" />
                         )}
-                        <span className="text-slate-900 text-sm font-bold font-mono">
+                        <span className="text-slate-900 text-sm xl:text-lg font-bold font-mono">
                           {item.platform}
                         </span>
                       </div>
